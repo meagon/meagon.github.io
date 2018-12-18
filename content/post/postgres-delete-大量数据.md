@@ -1,8 +1,14 @@
+---
+title: "Postgres Delete 大量数据"
+date: 2018-11-11T00:41:01+08:00
+draft: false
+author: 次郎
+---
 
------
-title: postgres 删除大量数据，该表没有 条件索引
 
-tidjoin.c 有写 join 在tid scan中的优化已经取消了，所以第一个语句不是最优的
+postgres 删除大量数据，该表没有 条件索引
+
+tidjoin.c 中有写 join 在tid scan中的优化已经取消了，所以第一个语句不是最优的
 
 大量数据的时候 直接where 就行.
 
@@ -54,3 +60,5 @@ lambda@127:postgres> explain SELECT id FROM t1 where id in (1,2,3);
 +----------------------------------------------------+
 
 ```
+
+

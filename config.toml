@@ -2,8 +2,8 @@
 # If you want to see the full configuration, please check `full-config.toml` .
 # And see https://gohugo.io/getting-started/configuration/ .
 
-baseURL = "http://localhost:1313/"
-title = "惠亭亭 - 瓦尔登湖畔的 思索 "
+baseURL = "http://meagon.github.io/"
+title = "惠亭亭 at 瓦尔登湖畔 "
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
@@ -16,12 +16,12 @@ googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 # language support # en / zh-cn / other... translations present in i18n/
-defaultContentLanguage = "zh-cn"           # Default language to use
+defaultContentLanguage = "en"           # Default language to use
 [languages.en]
-  languageCode = "zh-cn"
+  languageCode = "en"
 
 [author]                  # essential                     # 必需
-  name = "xianmin"
+  name = "次郎meago"
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
@@ -29,7 +29,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   filename = "sitemap.xml"
 
 [[menu.main]]             # config your menu              # 配置目录
-  name = "This is Home"
+  name = "学浅"
   weight = 10
   identifier = "home"
   url = "/"
@@ -60,7 +60,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   rssFullContent = true     # if false, Rss feed instead of the summary
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "Jane"        # default: the title value    # 默认值: 上面设置的title值
+  logoTitle = "次郎"        # default: the title value    # 默认值: 上面设置的title值
   keywords = ["Hugo", "theme","jane"]
   description = "Hugo theme jane example site."
 
@@ -79,20 +79,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
 
   [params.social]                                         # 社交链接
-    a-email = "mailto:your@email.com"
-    b-stack-overflow = "http://localhost:1313"
-    c-twitter = "http://localhost:1313"
-    d-facebook = "http://localhost:1313"
-    e-linkedin = "http://localhost:1313"
-    f-google = "http://localhost:1313"
-    g-github = "http://localhost:1313"
+    a-email = "mailto:tinghui008@163.com"
+    g-github = "http://github.com/meagon"
     h-weibo = "http://localhost:1313"
     i-zhihu = "http://localhost:1313"
-    j-douban = "http://localhost:1313"
-    k-pocket = "http://localhost:1313"
-    l-tumblr = "http://localhost:1313"
-    m-instagram = "http://localhost:1313"
-    n-gitlab = "http://localhost:1313"
-    o-goodreads = "http://localhost:1313"
-    p-coding = "http://localhost:1313"
-    q-bilibili = "http://localhost:1313"
