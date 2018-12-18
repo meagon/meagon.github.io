@@ -1,2 +1,0 @@
-User-agent: *
-Sitemap: https://meagon.github.io/sitemap.xml
